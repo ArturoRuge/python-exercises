@@ -9,4 +9,4 @@ if montoSeguro < 50000:
 else:
 	cuota = montoSeguro * 0.02
 
-print("la cuota a pagar es de: " + str(round(cuota,2)))
+print("la cuota a pagar es de: $" + str(round(cuota)))
