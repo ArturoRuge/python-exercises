@@ -3,7 +3,7 @@
 print("Digite las 40 calificaciones")
 calificaciones = []
 acumulador = 0
-for i in range(10):
+for i in range(40):
 	calificaciones.append(int(input(">>")))
 for i in calificaciones:
 	acumulador = acumulador + i
